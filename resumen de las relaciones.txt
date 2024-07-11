@@ -1,0 +1,9 @@
+componentes (id_comp)
+    |
+    +-- subcomponentes (id_sub, id_comp)
+            |
+            +-- topicos (id_top, id_sub, id_comp)
+                    |
+                    +-- variables (id_var, id_top)
+                            |
+                            +-- estadisticos (id_est, id_var)
